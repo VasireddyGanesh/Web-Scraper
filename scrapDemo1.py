@@ -14,13 +14,13 @@ while(True):
 
     txt=s.get_text()
 
-    if "R-2015" in txt or "BTech III Sem" in txt :
+    if "R-2019" in txt or "BTech III Sem" in txt :
         s=smtplib.SMTP('smtp.gmail.com',587)
         s.starttls()
         s.login("Code2hunt4@gmail.com","luv2code@4")
         s.sendmail("Code2hunt4@gmail.com","vasireddi.ganesh.8@gmail.com","Hey There !!! Results Released")
         s.quit()
-    time.sleep(10)
+    time.sleep(100)
 
 
 
