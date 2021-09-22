@@ -8,7 +8,7 @@ while(True):
 
     r=requests.get(req)
 
-    soup=BeautifulSoup(r.content,'html5lib')
+    soup=BeautifulSoup(r.content,'html.parser')
 
     s=soup.find(id='table4').a
 
