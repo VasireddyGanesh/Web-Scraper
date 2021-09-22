@@ -1,1 +1,1 @@
-worker:python scrapDemo1.py
+worker: python scrapDemo1.py
